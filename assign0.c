@@ -12,6 +12,5 @@ int main()
         fork();
  
 	sleep(10);
-	system("ps -f --forest -C a.out");       
-        return 0; 
+        return 0;
 } 
